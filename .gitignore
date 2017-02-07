@@ -1,0 +1,25 @@
+**/**/target/
+**/**/libs/
+**/**/.svn/
+**/comArchive.db
+**/comArchive.db-journal
+**/target/
+**/libs/
+**/.svn/
+**/providerURIs.properties
+
+# __________________________________________________________________
+# Platform software simulator specific:
+# Prevent auto generated data files in different providers' folders
+**/_OPS-SAT-SIMULATOR-header.txt
+**/_OPS-SAT-SIMULATOR-templates.txt
+**/_OPS-SAT-SIMULATOR-scheduler.txt
+**/_OPS-SAT-SIMULATOR-filter.txt
+**/_OPS-SAT-SIMULATOR-scheduler_backup*.txt
+# Allow however these file in the simulator main class folder (testing)
+!/OPS-SAT_SIMULATOR/_OPS-SAT-SIMULATOR-header.txt
+!/OPS-SAT_SIMULATOR/_OPS-SAT-SIMULATOR-templates.txt
+!/OPS-SAT_SIMULATOR/_OPS-SAT-SIMULATOR-scheduler.txt
+!/OPS-SAT_SIMULATOR/_OPS-SAT-SIMULATOR-filter.txt
+# __________________________________________________________________
+OPS-SAT_SIMULATOR/nbactions.xml
