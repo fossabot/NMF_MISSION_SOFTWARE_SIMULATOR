@@ -23,3 +23,6 @@
 !/OPS-SAT_SIMULATOR/_OPS-SAT-SIMULATOR-filter.txt
 # __________________________________________________________________
 OPS-SAT_SIMULATOR/nbactions.xml
+
+*.iml
+**/.idea
